@@ -85,7 +85,20 @@ komatsu-digital-analytics-sample/
 
 ## Dashboard Preview
 
+### Data Model
+![Data Model](dashboard/images/datamodel.png)
+
+### Overheat - Reliability Page
+![Overheat](dashboard/images/overheat.png)
+
+### Fuel Efficiency Page
+![Fuel Efficiency](dashboard/images/fuel_efficiency.png)
+
+### Overview Page
 ![Overview](dashboard/images/overview.png)
+
+### Utilization Page
+![Utilization](dashboard/images/utilization.png)
 
 ## Business Impact
 
