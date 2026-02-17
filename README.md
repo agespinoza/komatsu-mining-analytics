@@ -42,8 +42,6 @@ D --> E[Power BI Dashboard]
 
 ## DATA MODEL
 
-```md
-## Data Model
 
 ### Fact Table
 - fact_telemetry → telemetry measurements
