@@ -26,10 +26,6 @@ C --> D[KPI Views]
 D --> E[Power BI Dashboard]
 
 ```
-
-## 5️⃣ DATA MODEL
-
-```md
 ## Data Model
 
 ### Fact Table
