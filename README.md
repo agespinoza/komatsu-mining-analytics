@@ -37,7 +37,7 @@ B --> C[Azure SQL - Star Schema]
 C --> D[KPI Views]
 D --> E[Power BI Dashboard]
 
-
+```
 ---
 
 ## DATA MODEL
