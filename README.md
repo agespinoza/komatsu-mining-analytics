@@ -37,11 +37,14 @@ B --> C[Azure SQL - Star Schema]
 C --> D[KPI Views]
 D --> E[Power BI Dashboard]
 
-```
+```yaml
+
 ---
 
-## DATA MODEL
+## 5️⃣ DATA MODEL
 
+```md
+## Data Model
 
 ### Fact Table
 - fact_telemetry → telemetry measurements
@@ -52,6 +55,7 @@ D --> E[Power BI Dashboard]
 - dim_time → time intelligence
 
 Grain: one telemetry record per truck per timestamp.
+---
 
 ## KPIs
 
