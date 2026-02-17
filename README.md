@@ -40,7 +40,8 @@ D --> E[Power BI Dashboard]
 ```yaml
 
 ---
-## Data Model
+
+## 5️⃣ DATA MODEL
 
 ```md
 ## Data Model
@@ -54,6 +55,7 @@ D --> E[Power BI Dashboard]
 - dim_time → time intelligence
 
 Grain: one telemetry record per truck per timestamp.
+
 ---
 
 ## KPIs
