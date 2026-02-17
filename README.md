@@ -47,7 +47,7 @@ Grain: one telemetry record per truck per timestamp.
 - Overheat events
 - Overheat rate
 
-## Repository Structure
+## Repository Structure 
 
 ```mermaid
 flowchart LR
@@ -63,16 +63,6 @@ flowchart LR
 
     F --> G[Dashboard]
 ```
-
-komatsu-digital-analytics-sample/
-│
-├── data-ingestion/      # Raw telemetry simulation or ingestion scripts
-├── etl/                 # Transformations and data loading into Azure SQL
-├── database/            # Tables, star schema, KPI views
-├── api/                 # Optional REST API to expose KPIs
-├── dashboard/           # Power BI or Streamlit app
-├── infrastructure/      # IaC / deployment scripts (conceptual)
-└── README.md
 
 ## Technology Stack
 
