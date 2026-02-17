@@ -29,4 +29,4 @@ Downstream layers:
 - Event time not in the future (optional)
 
 ## Personal note
-Reliable ingestion is the foundation of the platform — it ensures traceability, scalability, and consistent data for all analytics workloads.
+Reliable ingestion is the foundation of the platform , it ensures traceability, scalability, and consistent data for all analytics workloads.
