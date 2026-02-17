@@ -15,18 +15,6 @@ This solution implements:
 - Analytical queries optimized for reporting
 - Interactive dashboard
 
----
-
-## Solution
-
-This solution implements:
-
-- Dimensional model (star schema)
-- KPI semantic layer
-- Analytical queries optimized for reporting
-- Interactive dashboard
-
----
 
 ## Architecture
 
