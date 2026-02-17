@@ -40,8 +40,7 @@ D --> E[Power BI Dashboard]
 ```yaml
 
 ---
-
-## 5️⃣ DATA MODEL
+## Data Model
 
 ```md
 ## Data Model
