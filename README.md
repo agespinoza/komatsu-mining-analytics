@@ -62,7 +62,7 @@ flowchart LR
     E --> F[API]
 
     F --> G[Dashboard]
-
+```
 
 komatsu-digital-analytics-sample/
 │
