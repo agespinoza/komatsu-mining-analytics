@@ -49,6 +49,20 @@ Grain: one telemetry record per truck per timestamp.
 
 ## Repository Structure
 
+```mermaid
+flowchart LR
+    A[Data Sources] --> B[data-ingestion]
+
+    B --> C[(Database<br/>Raw)]
+
+    C --> D[ETL / Transformations]
+
+    D --> E[(Database<br/>Curated)]
+
+    E --> F[API]
+
+    F --> G[Dashboard]
+
 
 komatsu-digital-analytics-sample/
 │
@@ -58,8 +72,6 @@ komatsu-digital-analytics-sample/
 ├── api/                 # Optional REST API to expose KPIs
 ├── dashboard/           # Power BI or Streamlit app
 ├── infrastructure/      # IaC / deployment scripts (conceptual)
-├── docs/
-│   └── architecture-diagram.png
 └── README.md
 
 ## Technology Stack
