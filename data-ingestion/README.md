@@ -27,3 +27,6 @@ Downstream layers:
 - Valid status values
 - Numeric ranges (fuel_rate >= 0, payload >= 0, temp within expected bounds)
 - Event time not in the future (optional)
+
+## Personal note
+Reliable ingestion is the foundation of the platform — it ensures traceability, scalability, and consistent data for all analytics workloads.
