@@ -1,0 +1,12 @@
+{
+  "fields": [
+    {"name": "event_time", "type": "datetime", "required": true},
+    {"name": "truck_id", "type": "int", "required": true},
+    {"name": "site_id", "type": "int", "required": true},
+    {"name": "status", "type": "string", "required": true, "allowed": ["ACTIVE", "IDLE", "DOWN"]},
+    {"name": "fuel_rate", "type": "float", "required": true},
+    {"name": "payload", "type": "float", "required": true},
+    {"name": "engine_temp", "type": "float", "required": true},
+    {"name": "duration_seconds", "type": "int", "required": false}
+  ]
+}

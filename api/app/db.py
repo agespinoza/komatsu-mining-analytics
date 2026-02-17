@@ -1,0 +1,18 @@
+import os
+import pyodbc
+from dotenv import load_dotenv
+
+load_dotenv()
+
+def get_connection():
+    conn_str = (
+        f"DRIVER={{{os.getenv('AZURE_SQL_DRIVER')}}};"
+        f"SERVER={os.getenv('AZURE_SQL_SERVER')};"
+        f"DATABASE={os.getenv('AZURE_SQL_DATABASE')};"
+        f"UID={os.getenv('AZURE_SQL_USER')};"
+        f"PWD={os.getenv('AZURE_SQL_PASSWORD')};"
+        "Encrypt=yes;"
+        "TrustServerCertificate=no;"
+        "Connection Timeout=30;"
+    )
+    return pyodbc.connect(conn_str)
